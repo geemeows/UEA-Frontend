@@ -25,9 +25,11 @@
                     <sup>th</sup> edition, 2020
                   </span>
                 </h1>
-                <p
-                  class="lead text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto veniam at rerum fuga omnis suscipit quisquam, aut eligendi deleniti fugit! Eos error quas qui soluta mollitia? Nulla tenetur enim quam?</p>
+                <p class="lead text-white">
+                  Our event has a well-deserved reputation for quality and students support. However, faced with
+                  changes in the known technology, we should seek new ideas that match these changes, and push
+                  up the limitations that prevent taking full advantage of the new improvements in technology.
+                </p>
                 <!-- <div class="btn-wrapper">
                   <base-button
                     tag="a"
@@ -61,9 +63,9 @@
                 <div class="pl-4">
                   <h5 class="title text-default">Graduates Competition</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi exercitationem quis cumque.
-                    Quos tempore quae sunt explicabo natus modi nostrum aspernatur, quibusdam ipsum repudiandae
-                    ipsam vel quidem, quam corporis? Placeat?
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
                   </p>
                   <a
                     href="https://www.facebook.com/events/547556652595539"
@@ -79,9 +81,9 @@
                 <div class="pl-4">
                   <h5 class="title text-primary">Undergraduates Competition</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi exercitationem quis cumque.
-                    Quos tempore quae sunt explicabo natus modi nostrum aspernatur, quibusdam ipsum repudiandae
-                    ipsam vel quidem, quam corporis? Placeat?
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
                   </p>
                   <a
                     href="https://www.facebook.com/events/547556652595539"
@@ -115,9 +117,10 @@
                 <div class="pl-4">
                   <h5 class="title text-primary">Aswan Robotics Competition (ARC6)</h5>
                   <p>
-                    In this competition the students are asked to create a robot, which must complete a
-                    specified task within a stipulated period. The group of students whose robot can perform the task
-                    with most accuracy the prize.
+                    Welcome to Aswan robotics competition and this year’s theme is “Aswan no terror”.
+                    A terrorist attack invades Aswan city and occupies the west bank of the Nile, the Egyptian army gathered it's forces to tackles this attack.
+                    The arena is an architectural maquette for Aswan city, each team is asked to build one robot that will be controlled manually to shoot targets occupied by the other team, the more targets you shot the higher score you gain.
+                    In the last stage of the war the robot have to shot the target automatically.
                   </p>
                   <a
                     href="https://www.facebook.com/events/837663860082612"
@@ -132,7 +135,11 @@
               <div class="d-flex px-3">
                 <div class="pl-4">
                   <h5 class="title text-default">Technical Schools Competition</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ipsum quidem sunt velit praesentium impedit atque soluta quis dicta laborum voluptate? Voluptas soluta molestiae suscipit nihil unde voluptatibus nemo eligendi.</p>
+                  <p>
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
+                  </p>
                   <a
                     href="https://www.facebook.com/events/837663860082612"
                     target="_blank"
@@ -146,7 +153,11 @@
               <div class="d-flex px-3">
                 <div class="pl-4">
                   <h5 class="title text-primary">Schools Competition</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ipsum quidem sunt velit praesentium impedit atque soluta quis dicta laborum voluptate? Voluptas soluta molestiae suscipit nihil unde voluptatibus nemo eligendi.</p>
+                  <p>
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
+                  </p>
                   <a
                     href="https://www.facebook.com/events/837663860082612"
                     target="_blank"
@@ -155,12 +166,16 @@
                 </div>
               </div>
             </card>
-            <!-- Entrepreneurship Competition -->
+            <!-- Entrepreneurship Hackathon -->
             <card class="border-default mt-5">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-default">Entrepreneurship Competition</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem dolorum deserunt officia, tempore vel dolor aliquid fugit nemo? Modi quam asperiores dignissimos earum. Inventore eligendi quae eaque quidem iure ab.</p>
+                  <h5 class="title text-default">Entrepreneurship Hackathon</h5>
+                  <p>
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
+                  </p>
                   <a
                     href="https://www.facebook.com/events/837663860082612"
                     target="_blank"
@@ -209,12 +224,15 @@ export default {
 <style scoped lang="scss">
 @import "../assets/scss/_breakpoints";
 .section-shaped .shape.shape-skew + .shape-container {
+    padding-top: 13rem;
   @include respond-below(md) {
     padding-top: 11rem;
   }
+  padding-bottom: 20px !important;
 }
 .section-shaped {
-  height: 500px;
+  color: #fff;
+  // height: 500px;
 }
 .shape-skew {
   transform: skewY(0deg) !important;

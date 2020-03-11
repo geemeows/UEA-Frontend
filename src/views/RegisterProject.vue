@@ -25,9 +25,11 @@
                     <sup>th</sup> edition, 2020
                   </span>
                 </h1>
-                <p
-                  class="lead text-white"
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto veniam at rerum fuga omnis suscipit quisquam, aut eligendi deleniti fugit! Eos error quas qui soluta mollitia? Nulla tenetur enim quam?</p>
+                <p class="lead text-white">
+                  Our event has a well-deserved reputation for quality and students support. However, faced with
+                  changes in the known technology, we should seek new ideas that match these changes, and push
+                  up the limitations that prevent taking full advantage of the new improvements in technology.
+                </p>
               </div>
             </div>
           </div>
@@ -43,15 +45,15 @@
             <card class="mt-5 border-default">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-default">Graduates Competition</h5>
+                  <h5 class="mb-0 title text-default">Graduates Competition</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi exercitationem quis cumque.
-                    Quos tempore quae sunt explicabo natus modi nostrum aspernatur, quibusdam ipsum repudiandae
-                    ipsam vel quidem, quam corporis? Placeat?
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
                   </p>
                   <router-link
                     to="/register-exhibitors/graduates"
-                    target="_blank"
                     class="text-default"
                   >Register Now!</router-link>
                 </div>
@@ -61,15 +63,15 @@
             <card class="mt-5 border-primary">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-primary">Undergraduates Competition</h5>
+                  <h5 class="mb-0 title text-primary">Undergraduates Competition</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi exercitationem quis cumque.
-                    Quos tempore quae sunt explicabo natus modi nostrum aspernatur, quibusdam ipsum repudiandae
-                    ipsam vel quidem, quam corporis? Placeat?
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
                   </p>
                   <router-link
                     to="/register-exhibitors/undergraduates"
-                    target="_blank"
                     class="text-primary"
                   >Register Now!</router-link>
                 </div>
@@ -79,7 +81,8 @@
             <card class="border-default mt-5">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-default">MicroMouse Competition</h5>
+                  <h5 class="mb-0 title text-default">MicroMouse Competition</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
                   <p>
                     must design and build an autonomous robotic ”mouse” capable of traversing a maze of standard dimensions from a
                     specified corner to its center in the shortest time digging into mathematical algorithms and logical thinking Using
@@ -87,90 +90,93 @@
                   </p>
                   <router-link
                     to="/register-exhibitors/micro-mouse"
-                    target="_blank"
                     class="text-default"
                   >Register Now!</router-link>
                 </div>
               </div>
             </card>
             <!-- Aswan Robotics Competition (ARC6) -->
-            <!-- <card class="border-primary mt-5">
-              <div class="d-flex px-3">
-                <div class="pl-4">
-                  <h5 class="title text-primary">Aswan Robotics Competition (ARC6)</h5>
-                  <p>
-                    In this competition the students are asked to create a robot, which must complete a
-                    specified task within a stipulated period. The group of students whose robot can perform the task
-                    with most accuracy the prize.
-                  </p>
-                  <router-link
-                    to=""
-                    target="_blank"
-                    class="text-primary"
-                  >Register Now!</router-link>
-                </div>
-              </div>
-            </card> -->
-            <!-- Technical Schools Competition -->
             <card class="border-primary mt-5">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-primary">Technical Schools Competition</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ipsum quidem sunt velit praesentium impedit atque soluta quis dicta laborum voluptate? Voluptas soluta molestiae suscipit nihil unde voluptatibus nemo eligendi.</p>
-                  <router-link
-                    to="/register-exhibitors/tech-schools"
-                    target="_blank"
-                    class="text-primary"
-                  >Register Now!</router-link>
+                  <h5 class="mb-0 title text-primary">Aswan Robotics Competition (ARC6)</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
+                  <p>
+                    Welcome to Aswan robotics competition and this year’s theme is “Aswan no terror”.
+                    A terrorist attack invades Aswan city and occupies the west bank of the Nile, the Egyptian army gathered it's forces to tackles this attack.
+                    The arena is an architectural maquette for Aswan city, each team is asked to build one robot that will be controlled manually to shoot targets occupied by the other team, the more targets you shot the higher score you gain.
+                    In the last stage of the war the robot have to shot the target automatically.
+                  </p>
+                  <router-link to="/register-exhibitors/arc6" class="text-primary">Register Now!</router-link>
                 </div>
               </div>
             </card>
-            <!-- Schools Competition -->
+            <!-- Technical Schools Competition -->
             <card class="border-default mt-5">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-default">Schools Competition</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, ipsum quidem sunt velit praesentium impedit atque soluta quis dicta laborum voluptate? Voluptas soluta molestiae suscipit nihil unde voluptatibus nemo eligendi.</p>
+                  <h5 class="mb-0 title text-default">Technical Schools Competition</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
+                  <p>
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
+                  </p>
                   <router-link
-                    to="/register-exhibitors/schools"
-                    target="_blank"
+                    to="/register-exhibitors/tech-schools"
                     class="text-default"
                   >Register Now!</router-link>
                 </div>
               </div>
             </card>
-            <!-- Entrepreneurship Competition -->
-            <!-- <card class="border-default mt-5">
+            <!-- Schools Competition -->
+            <card class="border-primary mt-5">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-primary">Entrepreneurship Competition</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem dolorum deserunt officia, tempore vel dolor aliquid fugit nemo? Modi quam asperiores dignissimos earum. Inventore eligendi quae eaque quidem iure ab.</p>
+                  <h5 class="mb-0 title text-primary">Schools Competition</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
+                  <p>
+                    As the world is changing, our challenges grow bigger and bigger that we need more developed
+                    creative solutions, we are focusing on the ICT means to handle several challenges from which
+                    Upper Egypt suffers such as energy, water, health and community Problems.
+                  </p>
+                  <router-link to="/register-exhibitors/schools" class="text-primary">Register Now!</router-link>
+                </div>
+              </div>
+            </card>
+            <!-- Entrepreneurship Hackathon -->
+            <card class="border-default mt-5">
+              <div class="d-flex px-3">
+                <div class="pl-4">
+                  <h5 class="mb-0 title text-default">Entrepreneurship Hackathon</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
+                  <p>
+                    Teams gather to solve problems by thinking out of the box and challenge themselves to create 
+                    something new from the perspective technology and business.
+                    In The end teams shows their projects to judges and investors.
+                  </p>
                   <router-link
-                    to=""
-                    target="_blank"
-                    class="text-primary"
+                    to="/register-exhibitors/hackathon"
+                    class="text-default"
                   >Register Now!</router-link>
                 </div>
               </div>
-            </card> -->
+            </card>
             <!-- Spaghetti Competition -->
-            <!-- <card class="border-primary mt-5">
+            <card class="border-primary mt-5">
               <div class="d-flex px-3">
                 <div class="pl-4">
-                  <h5 class="title text-primary">Spaghetti Competition</h5>
+                  <h5 class="mb-0 title text-primary">Spaghetti Competition</h5>
+                  <badge class="mb-2" type="success">Registration Open</badge>
                   <p>
                     It’s a marvelous chance for students, particularly civil engineers. It helps them to apply
                     what they learn and use engineering design process to build a structure from spaghetti to handle
                     pressure.
                   </p>
-                  <router-link
-                    to=""
-                    target="_blank"
-                    class="text-primary"
-                  >Register Now!</router-link>
+                  <router-link to="/register-exhibitors/spagetti" class="text-primary">Register Now!</router-link>
                 </div>
               </div>
-            </card> -->
+            </card>
           </div>
         </div>
       </div>
@@ -193,12 +199,15 @@ export default {
 <style scoped lang="scss">
 @import "../assets/scss/_breakpoints";
 .section-shaped .shape.shape-skew + .shape-container {
+    padding-top: 13rem;
   @include respond-below(md) {
     padding-top: 11rem;
   }
+  padding-bottom: 20px !important;
 }
 .section-shaped {
-  height: 500px;
+  color: #fff;
+  // height: 500px;
 }
 .shape-skew {
   transform: skewY(0deg) !important;

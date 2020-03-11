@@ -13,7 +13,7 @@
                     <li class="py-2">
                       <div class="d-flex align-items-center">
                         <badge type="primary" circle class="mr-3" icon="ni ni-pin-3"></badge>
-                        <h6 class="mb-0">Tolip Hotel, Aswan, Egypt</h6>
+                        <h6 class="mb-0">Tolip Hotel, Aswan City, Egypt</h6>
                       </div>
                     </li>
                     <li class="py-2">

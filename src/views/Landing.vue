@@ -17,13 +17,14 @@
                 <b-carousel-slide>
                   <template v-slot:img>
                     <img
+                      style="object-fit: cover;"
                       class="slider-img d-block img-fluid w-100"
-                      src="@/assets/imgs/slider-img.jpg"
+                      src="@/assets/imgs/hero.jpg"
                       alt="image slot"
                     />
                   </template>
                 </b-carousel-slide>
-                <b-carousel-slide>
+                <!-- <b-carousel-slide>
                   <template v-slot:img>
                     <img
                       class="slider-img d-block img-fluid w-100"
@@ -31,7 +32,7 @@
                       alt="image slot"
                     />
                   </template>
-                </b-carousel-slide>
+                </b-carousel-slide> -->
               </b-carousel>
             </div>
           </div>

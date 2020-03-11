@@ -7,6 +7,14 @@ import Competitions from "./views/Competitions.vue";
 import RegisterProject from "./views/RegisterProject.vue";
 import RegisterVisitor from "./views/RegisterVisitor.vue";
 import Gallery from "./views/Gallery.vue";
+import Graduates from "./views/Graduates"
+import Undergraduates from './views/Undergraduates'
+import Schools from './views/Schools'
+import TechSchools from './views/TechSchools'
+import MicroMouse from './views/MicroMouse'
+import ARC6 from './views/ARC6'
+import Spagetti from './views/Spagetti'
+import Hackathon from './views/Hackathon'
 
 Vue.use(Router);
 
@@ -42,8 +50,80 @@ export default new Router({
       }
     },
     {
+      path: "/register-exhibitors/graduates",
+      name: "gradsRegister",
+      components: {
+        header: AppHeader,
+        default: Graduates,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/register-exhibitors/undergraduates",
+      name: "undergradsRegister",
+      components: {
+        header: AppHeader,
+        default: Undergraduates,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/register-exhibitors/schools",
+      name: "schoolsRegister",
+      components: {
+        header: AppHeader,
+        default: Schools,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/register-exhibitors/tech-schools",
+      name: "techSchoolsRegister",
+      components: {
+        header: AppHeader,
+        default: TechSchools,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/register-exhibitors/micro-mouse",
+      name: "microMouseRegister",
+      components: {
+        header: AppHeader,
+        default: MicroMouse,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/register-exhibitors/arc6",
+      name: "arcRegister",
+      components: {
+        header: AppHeader,
+        default: ARC6,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/register-exhibitors/spagetti",
+      name: "spagettiRegister",
+      components: {
+        header: AppHeader,
+        default: Spagetti,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/register-exhibitors/hackathon",
+      name: "hackathonRegister",
+      components: {
+        header: AppHeader,
+        default: Hackathon,
+        footer: AppFooter
+      }
+    },
+    {
       path: "/register-visitor",
-      name: "registerProject",
+      name: "registerVisitor",
       components: {
         header: AppHeader,
         default: RegisterVisitor,

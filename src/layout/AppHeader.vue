@@ -2,13 +2,13 @@
   <header class="header-global">
     <base-nav class="navbar-main" transparent type effect="light" expand>
       <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-        <img class="logo-lg" src="img/logos/uea.logo.png" alt="logo" />
+        <img class="logo-lg" src="@/assets/imgs/logos/uea.logo.png" alt="logo" />
       </router-link>
 
       <div class="row" slot="content-header" slot-scope="{closeMenu}">
         <div class="col-6 collapse-brand">
           <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-            <img class="logo-lg" src="img/logos/uea.logo.png" alt="logo" />
+            <img class="logo-lg" src="@/assets/imgs/logos/uea.logo.png" alt="logo" />
           </router-link>
         </div>
         <div class="col-6 collapse-close">
