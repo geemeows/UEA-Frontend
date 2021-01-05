@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@alfsnd/vue-bootstrap-select": "^0.4.4",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap-vue": "^2.0.4",
     "filepond": "^4.12.0",
     "filepond-plugin-file-validate-size": "^2.2.0",
